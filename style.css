@@ -1,19 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
-body {
-    background-color: #3D85C6;
-    color: rgba(0,0,0,.8);
-    height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.box {
+    height: 200px;
+    width: 200px;
+    /* float: left; */
 }
-
-.font {
-    font-family: 'Black Han Sans', arial, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: italic;
-    font: italic bold 40px 'Black Han Sans', arial, sans-serif;
-    
+.tomato {
+    float: right;
+    /* height: 220px; */
+    height: 80px;
+    width: 80%;
 }
-/* https:google.com/fonts */
+.purple {
+    float: left;
+    width: 20%;
+    height: 600px;
+}
+.gold {
+    float: right;
+    clear: right;
+    height: 440px;
+    width: 80%;
+}
+.green {
+    clear: right;
+    float: right;
+    height: 80px;
+    width: 80%;
+}
+.clearfix {
+    clear: both;
+}
