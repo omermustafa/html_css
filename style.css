@@ -1,12 +1,9 @@
-html, body {
-    margin: 0;
-    padding: 0;
+/* All the b in the section
+section b {
+    color: blueviolet;
+} */
+
+/* Child combinator:  Direct b children of section not grandchildren */
+section > b, div > b {
+    color: blueviolet;
 }
-body {
-    background-color: #bbb;
-    color: black;
-}
-section {
-    padding: 0 25px;
-}
- 
