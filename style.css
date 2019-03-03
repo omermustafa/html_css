@@ -1,13 +1,16 @@
-.box {
-    border: 2px solid;
-    background: white;
+
+#id {
+    background-color: blueviolet;
 }
-#classes {
-    color: slateblue;
+html .class {
+    background-color: tomato;
 }
-#ids {
-    color: tomato;
+.class {
+    background-color: tomato;
 }
-#classes > p > b, #ids li > b {
-    color: goldenrod;
+html body {
+    background: aqua;
+}
+body {
+    background-color: aqua; 
 }
