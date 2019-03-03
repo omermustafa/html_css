@@ -1,26 +1,32 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css?v=1">
-    <!-- <script src="main.js"></script> -->
-</head>
-<body>
-    <h1>CSS Vocabulary</h1>
-    <section>
-        <b>CSS Rule:</b>
-        <p>
-            A <b>CSS Rule</b> CSS rule-set consists of a selector and a declaration block:
-        </p>
-    </section>
-    <div>
-        <b>CSS selectors:</b>
-        <p>
-            <b>CSS selectors</b> are used to "find" (or select) HTML elements based on their element name, id, class, attribute, and more.
-        </p>
-    </div>
-</body>
+    <head>
+        <link rel="stylesheet" href="instructor.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Classes and IDs</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="white">Classes & IDs</h1>
+        </header>
+        <main>
+            <section class="box" id="classes">
+                <h3>When should we use classes?</h3>
+                <p>Here are <b>two</b> rules of thumb</p>
+                <ul>
+                    <li>When you <b>want to</b> apply the same style to multiple elements</li>
+                    <li>But <b>not all elements</b> of the same name</li>
+                </ul>
+                <p>A class can be used on <b>multiple elements</b>, and an element can have <b>multiple classes</b></p>
+            </section>
+            <section class="box" id="ids">
+                <h3>When should we use IDs?</h3>
+                <p>Here are <b>two</b> rules of thumb</p>
+                <ul>
+                    <li>When you <b>don't need to</b> apply the same style to multiple elements</li>
+                    <li>To have a <b>unique</b> selector to a common element.</li>
+                </ul>
+                <p>A ID cannot be used on <b>multiple elements</b>, and an element cannot have <b>multiple IDs</b></p>
+            </section>
+        </main>
+    </body>
 </html>

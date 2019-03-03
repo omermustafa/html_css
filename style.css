@@ -1,9 +1,13 @@
-/* All the b in the section
-section b {
-    color: blueviolet;
-} */
-
-/* Child combinator:  Direct b children of section not grandchildren */
-section > b, div > b {
-    color: blueviolet;
+.box {
+    border: 2px solid;
+    background: white;
+}
+#classes {
+    color: slateblue;
+}
+#ids {
+    color: tomato;
+}
+#classes > p > b, #ids li > b {
+    color: goldenrod;
 }
