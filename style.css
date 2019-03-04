@@ -1,26 +1,36 @@
-body {
-    padding-bottom: 100px;
+/* ul li:first-child a {
+    color: tomato;
+} */
+
+/* ul li:last-child a {
+    color: tomato;
+} */
+
+ul li:nth-child(odd) a {
+    color: tomato;
 }
 
-.first {
-    position: relative;
-    top: -40px;
-    margin-bottom: -40px;
+/* ul li a:active {
+    color: tomato;
+    font-size: 2em;
+} */
+
+ul li a:hover {
+    color: tomato;
+    font-size: 2em;
 }
-.second {
-    position: relative;
+
+ul a:hover::before {
+    content: '\2192';
+    margin: 10px;
+    color: red;
 }
-.ribbon {
-    position: absolute;
-    top: 0;
-    right: 20px;
-}
-.toplink {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-footer {
-    position: fixed;
-    bottom: 0px;
-}
+
+
+/* 
+    Pseudo Elements
+    https://www.w3schools.com/css/css_pseudo_elements.asp
+    
+    Psudo Classes
+    https://www.w3schools.com/css/css_pseudo_classes.asp
+ */
